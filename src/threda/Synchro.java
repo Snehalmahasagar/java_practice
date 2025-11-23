@@ -2,7 +2,7 @@ package threda;
 
 public class Synchro {
     private int cnt=0;
-    public void increment(){
+    public synchronized void  increment(){
         cnt ++;
     }
 
